@@ -57,7 +57,6 @@
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
-  <project path="external/busybox" name="0xD34D/android_external_busybox" remote="gh" revision="jb" />
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
   <project path="external/chromium" name="platform/external/chromium" />
@@ -305,12 +304,15 @@
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="platform/system/core" />
-  <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/security" name="platform/system/security" />
   <project path="system/vold" name="0xD34D/platform_system_vold" remote="gh" revision="jb"  />
   <project path="vendor/amazon/otter" name="0xD34D/android_vendor_amazon_otter" remote="gh" revision="jb" />
+
+<!--  <project path="external/busybox" name="0xD34D/android_external_busybox" remote="gh" revision="jb" /> -->
+  <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="gh" revision="ics" />
+  <project path="system/extras" name="0xD34D/android_system_extras" remote="gh" revision="jb" />
 
   <project path="platform_manifest" name="0xD34D/platform_manifest-jb" remote="gh" revision="jb" />
 
