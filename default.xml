@@ -307,6 +307,8 @@
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/security" name="platform/system/security" />
-  <project path="system/vold" name="platform/system/vold" />
+  <project path="system/vold" name="0xD34D/platform_system_vold" remote="gh" revision="jb"  />
+
+  <project path="platform_manifest" name="0xD34D/platform_manifest-jb" remote="gh" revision="jb" />
 
 </manifest>
