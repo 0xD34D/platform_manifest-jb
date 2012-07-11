@@ -312,7 +312,7 @@
 
 <!--  <project path="external/busybox" name="0xD34D/android_external_busybox" remote="gh" revision="jb" /> -->
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="gh" revision="ics" />
-  <project path="packages/apps/Trebuchet" name="0xD34D/android_packages_apps_Trebuchet" remote="gh" revision="ics" />
+  <project path="packages/apps/Trebuchet" name="0xD34D/android_packages_apps_Trebuchet" remote="gh" revision="jb" />
   <project path="system/extras" name="0xD34D/android_system_extras" remote="gh" revision="jb" />
 
   <project path="platform_manifest" name="0xD34D/platform_manifest-jb" remote="gh" revision="jb" />
