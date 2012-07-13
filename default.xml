@@ -12,6 +12,9 @@
            fetch="https://github.com/"
            revision="jb" />
 
+  <remote  name="omapzoom"
+           fetch="git://git.omapzoom.org/" />
+
   <project path="build" name="0xD34D/android_build" remote="gh" revision="jb" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -217,7 +220,7 @@
   <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
-  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
+  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" remote="omapzoom" revision="p-jb-release" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
   <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" />
@@ -311,6 +314,7 @@
   <project path="vendor/amazon/otter" name="0xD34D/android_vendor_amazon_otter" remote="gh" revision="jb" />
 
   <project path="external/busybox" name="0xD34D/android_external_busybox" remote="gh" revision="jb" />
+  <project path="kernel/amazon/otter" name="KFire-Android/kernel_omap" remote="gh" revision="4AI.5" />
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="gh" revision="ics" />
   <project path="packages/apps/Trebuchet" name="0xD34D/android_packages_apps_Trebuchet" remote="gh" revision="jb" />
   <project path="system/extras" name="0xD34D/android_system_extras" remote="gh" revision="jb" />
