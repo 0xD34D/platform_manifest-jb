@@ -15,6 +15,9 @@
   <remote  name="omapzoom"
            fetch="git://git.omapzoom.org/" />
 
+  <remote  name="eos"
+           fetch="git://git.teameos.org/" />
+
   <project path="build" name="0xD34D/android_build" remote="gh" revision="jb" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -27,6 +30,7 @@
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
   <project path="device/asus/grouper" name="device/asus/grouper" />
+  <project path="device/asus/tf201" name="eos/device/asus/tf201" remote="eos" revision="jellybean" />
   <project path="device/amazon/otter" name="0xD34D/device_amazon_otter" remote="gh" revision="jb" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
