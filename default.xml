@@ -323,6 +323,11 @@
   <project path="packages/apps/Trebuchet" name="0xD34D/android_packages_apps_Trebuchet" remote="gh" revision="jb" />
   <project path="system/extras" name="0xD34D/android_system_extras" remote="gh" revision="jb" />
 
+  <project name="themes-platform-vendor-tmobile-apps-ThemeChooser" path="vendor/tmobile/apps/ThemeChooser" revision="ics" remote="d34d" />
+  <project name="android_vendor_tmobile_libs_com.tmobile.themes" path="vendor/tmobile/libs/com.tmobile.themes" revision="ics" remote="d434d" />
+  <project name="android_vendor_tmobile_providers_ThemeManager" path="vendor/tmobile/providers/ThemeManager" revision="ics" remote="d34d" />
+  <project name="android_vendor_tmobile_products_themes" path="vendor/tmobile/products/themes" revision="ics" remote="d34d" />
+
   <project path="platform_manifest" name="0xD34D/platform_manifest-jb" remote="gh" revision="jb" />
 
 </manifest>
