@@ -316,6 +316,7 @@
   <project path="system/security" name="platform/system/security" />
   <project path="system/vold" name="0xD34D/platform_system_vold" remote="gh" revision="jb" />
   <project path="vendor/amazon/otter" name="0xD34D/android_vendor_amazon_otter" remote="gh" revision="jb" />
+  <project path="vendor/jandycane" name="0xD34D/android_vendor_jandycane_common" remote="gh" revision="jb" />
 
   <project path="external/busybox" name="0xD34D/android_external_busybox" remote="gh" revision="jb" />
   <project path="kernel/amazon/otter" name="KFire-Android/kernel_omap" remote="gh" revision="4AI.5" />
